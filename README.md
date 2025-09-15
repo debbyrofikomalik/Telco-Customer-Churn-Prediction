@@ -1,35 +1,46 @@
 # Telco Customer Churn Prediction
 
-This repository presents a comprehensive machine learning project aimed at predicting customer churn for a telecommunications company. The project demonstrates a full end-to-end workflow, including data preprocessing, feature engineering, model training, evaluation, and extraction of business insights.
+This repository presents a professional end-to-end machine learning project aimed at predicting customer churn using the Telco Customer Churn dataset. The project demonstrates a structured workflow from data preprocessing to actionable business insights.
 
-## Project Overview
+## Project Objective
 
-The main objective is to identify customers at risk of churn to enable proactive retention strategies. The dataset includes demographic, account, and service-related information.
+The primary goal is to identify customers at risk of leaving the company, enabling proactive retention strategies and optimizing customer lifetime value.
 
-### Workflow
+## Data Processing
 
-1. **Data Cleaning and Exploration**
-   - Handle missing values
-   - Convert categorical features to numerical values
-   - Scale numerical features
+- **Data Cleaning:** Handling missing values and removing irrelevant columns.  
+- **Feature Engineering:**  
+  - Encoding categorical features (label encoding and one-hot encoding)  
+  - Scaling numerical features with MinMaxScaler  
+- **Exploratory Analysis:** Understanding feature distributions and correlations with churn.
 
-2. **Feature Engineering**
-   - Label encoding for binary categorical features
-   - One-hot encoding for multi-category features
-   - MinMax scaling for numerical features
+## Modeling
 
-3. **Model Training and Evaluation**
-   - Machine learning models used:
-     - Logistic Regression
-     - K-Nearest Neighbors (KNN)
-     - Decision Tree Classifier
-   - Evaluation metrics:
-     - Confusion Matrix
-     - Accuracy Score
-     - ROC Curve and AUC
-     - Precision-Recall Curve and F1 Score
-     - Feature Importance / Feature Weights
+Three machine learning algorithms were implemented and compared:
 
-4. **Business Insights**
-   - Key factors influencing churn: tenure, contract type, monthly charges, and service subscriptions
-   - Strategic recommendations for customer retention
+- **Logistic Regression**  
+- **K-Nearest Neighbors (KNN)**  
+- **Decision Tree Classifier**  
+
+Models were evaluated on multiple metrics to ensure reliability and predictive accuracy.
+
+## Evaluation Metrics
+
+- Confusion Matrix  
+- Accuracy Score  
+- ROC Curve and AUC  
+- Precision-Recall Curve and F1 Score  
+- Feature Importance / Feature Weights  
+
+## Business Insights
+
+- **Tenure** and **contract type** significantly affect churn.  
+- **Pricing**, **service offerings**, and **billing preferences** influence customer loyalty.  
+- Predictive modeling allows early identification of at-risk customers to implement retention strategies.  
+
+## Strategic Recommendations
+
+- Engage customers with short tenure through onboarding programs.  
+- Promote long-term contracts and personalized billing.  
+- Bundle services and enhance support offerings.  
+- Leverage predictive analytics to target high-risk customers effectively.
